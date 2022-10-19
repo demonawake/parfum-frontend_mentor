@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    padding: 20px 15px;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.pass{
+    font-family: 'Fraunces', serif;
+}
+.card__column1{
+    margin-bottom: 20px;
+}
+
+.card__picture{
+    width: 100%;
+}
+
+.card__image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card__column2{
+    padding: 0 25px 20px 25px;
+}
+
+.card__column2 .card__subtitle{
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+}
+
+.card__column2 .card__title{
+    color: #000;
+    font-size: 2.8rem;
+    line-height: 2.7rem;
+    font-family: 'Fraunces', serif;
+    margin: 15px 0;
+}
+
+.card__column2 .card__text{
+    font-size: 1.4rem;
+    margin: 20px 0px;
+    line-height: 25px;
+}
+
+.card__price{
+    display: flex;
+    align-items: center;
+}
+
+.card__new-price{
+    font-family: 'Fraunces', serif;
+    color:hsl(158, 36%, 37%);
+    font-size: 3rem;
+    margin-right: 20px;
+}
+
+.card__old-price{
+    text-decoration:line-through;
+}
+
+.card__button{
+    background-color: hsl(158, 36%, 37%);
+    padding: 15px 30px;
+    display: block;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    font-weight: bold;
+    position: relative;
+}
+
+.card__button::before{
+    content: '';
+    background-image:url('/img/icon-cart.svg');
+    background-size: cover;
+    position: absolute;
+    left: calc(50% - 65px);
+    width: 15px;
+    height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
