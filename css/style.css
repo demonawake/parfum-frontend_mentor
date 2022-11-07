@@ -92,7 +92,7 @@ body{
 
 .card__button::before{
     content: '';
-    background-image:url('/img/icon-cart.svg');
+    background-image:url('https://srv774.hstgr.io:7443/files/public_html/frontend-mentor/perfume/img/icon-cart.svg');
     background-size: cover;
     position: absolute;
     left: calc(50% - 65px);
